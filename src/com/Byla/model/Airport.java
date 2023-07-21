@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import com.Byla.Address;
 
 
-
  
 
 public class Airport extends Flight {
@@ -43,6 +42,8 @@ public class Airport extends Flight {
     public void setTravellers(ArrayList<Traveller> travellers) {
         this.travellers = travellers;
     } 
+
+
     public boolean addFlight(Flight flight) {
         flights.add(flight);
         System.out.println("new flight got added");
